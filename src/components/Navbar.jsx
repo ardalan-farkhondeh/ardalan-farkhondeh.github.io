@@ -1,10 +1,14 @@
 import { NavLink } from 'react-router-dom'
+import avatar from '../assets/images/avatar.jpg'
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        Ardalan Farkhondeh
+
+      <div className="navbar-avatar">
+        <div className="navbar-avatar-placeholder">
+          <img src={avatar} alt="Ardalan" />
+        </div>
       </div>
 
       <div className="navbar-links">
@@ -15,6 +19,7 @@ function Navbar() {
         <NavLink to="/experience">Experience</NavLink>
         <NavLink to="/contact">Contact</NavLink>
       </div>
+
     </nav>
   )
 }

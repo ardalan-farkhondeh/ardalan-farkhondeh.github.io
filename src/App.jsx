@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { useEffect } from 'react'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 
 import Navbar from './components/Navbar'
 
@@ -15,22 +16,58 @@ import Experience from './pages/Experience'
 import Contact from './pages/Contact'
 
 import './App.css'
+import './styles/navbar.css'
+import './styles/home.css'
+import './styles/pages/projects.css'
+import './styles/pages/education.css'
+import './styles/pages/research.css'
+import './styles/pages/experience.css'
+import './styles/pages/contact.css'
+import './styles/responsive.css'
+
+
+/* =========================================================
+   SCROLL TO TOP
+   ========================================================= */
+
+function ScrollToTop() {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  return null
+}
+
+
+/* =========================================================
+   HOME
+   ========================================================= */
 
 function Home() {
   return (
-    <>
+    <main className="home-page">
       <Hero />
       <About />
       <FeaturedProjects />
       <Skills />
       <BeyondCode />
-    </>
+    </main>
   )
 }
+
+
+/* =========================================================
+   APP
+   ========================================================= */
 
 function App() {
   return (
     <BrowserRouter>
+
+      <ScrollToTop />
+
       <Navbar />
 
       <Routes>
@@ -46,6 +83,7 @@ function App() {
 
         <Route path="/contact" element={<Contact />} />
       </Routes>
+
     </BrowserRouter>
   )
 }

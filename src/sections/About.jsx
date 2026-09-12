@@ -1,11 +1,15 @@
+import profileAbout from '../assets/images/profile-about.jfif'
+
 function About() {
   return (
     <section className="about">
       <div className="about-container">
+
         <div className="about-image">
-          <div className="about-image-placeholder">
-            Your Photo
-          </div>
+          <img
+            src={profileAbout}
+            alt="Ardalan Farkhondeh"
+          />
         </div>
 
         <div className="about-content">
@@ -29,15 +33,25 @@ function About() {
           </p>
 
           <div className="about-links">
-            <a href="https://github.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
 
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
           </div>
+
         </div>
+
       </div>
     </section>
   )

@@ -14,7 +14,7 @@ function Education() {
           </h1>
 
           <p>
-            My academic journey has focused on computer engineering,
+            My academic background combines computer engineering,
             artificial intelligence, computer networking, and research.
           </p>
 
@@ -27,7 +27,7 @@ function Education() {
           <article className="education-item">
 
             <div className="education-year">
-              Present
+              PhD
             </div>
 
             <div className="education-content">
@@ -46,9 +46,9 @@ function Education() {
 
               <p>
                 Doctoral research focused on computer networking and
-                network engineering. The program included research,
-                experimentation, and advanced work in communication
-                networks and intelligent networking systems.
+                network engineering. I completed approximately two years
+                of the program and successfully passed the first-year
+                doctoral evaluation.
               </p>
 
             </div>
@@ -76,9 +76,9 @@ function Education() {
               </p>
 
               <p>
-                Graduate studies covering computer engineering,
-                software development, artificial intelligence,
-                computer systems, and networking.
+                Graduate studies in computer engineering, with academic
+                and technical work covering software development,
+                artificial intelligence, computer systems, and networking.
               </p>
 
             </div>
