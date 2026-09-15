@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function FeaturedProjects() {
   return (
     <section className="featured-projects">
@@ -34,9 +36,9 @@ function FeaturedProjects() {
               <span>FastAPI</span>
             </div>
 
-            <a href="/projects">
+            <Link to="/projects">
               View Project →
-            </a>
+            </Link>
           </article>
 
           <article className="project-card">
@@ -57,9 +59,9 @@ function FeaturedProjects() {
               <span>PyTorch</span>
             </div>
 
-            <a href="/projects">
+            <Link to="/projects">
               View Project →
-            </a>
+            </Link>
           </article>
 
           <article className="project-card">
@@ -80,9 +82,9 @@ function FeaturedProjects() {
               <span>Networking</span>
             </div>
 
-            <a href="/research">
+            <Link to="/research">
               View Project →
-            </a>
+            </Link>
           </article>
 
         </div>

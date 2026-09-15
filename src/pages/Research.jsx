@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 
 function Research() {
   return (
@@ -111,9 +112,9 @@ function Research() {
                 <span>Disaster Recovery</span>
               </div>
 
-              <a href="">
+              <Link to="/research">
                 View Research →
-              </a>
+              </Link>
 
             </div>
 
