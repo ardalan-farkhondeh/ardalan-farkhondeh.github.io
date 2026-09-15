@@ -2,17 +2,16 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <p className="hero-eyebrow">AI • Software • Computer Engineering</p>
+        <p className="hero-eyebrow">Full-Stack Developer • AI & Networking • IT Specialist</p>
 
         <h1>
           Hi, I'm Ardalan.
           <br />
-          I build intelligent software.
+          I turn ideas into intelligent systems.
         </h1>
 
         <p className="hero-description">
-          Computer Engineer focused on Artificial Intelligence, RAG systems,
-          software development, and computer networking.
+          Computer Engineer with experience in Artificial Intelligence, software development, and computer networking.
         </p>
 
         <div className="hero-actions">

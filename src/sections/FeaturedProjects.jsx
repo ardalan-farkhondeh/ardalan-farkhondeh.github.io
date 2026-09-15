@@ -65,22 +65,22 @@ function FeaturedProjects() {
           <article className="project-card">
             <div className="project-number">03</div>
 
-            <h3>Computer Networking Research</h3>
+            <h3>5G UAV Networks for Disaster and Rescue Operations</h3>
 
             <p>
-              Research and development work focused on computer networks,
-              network engineering, and intelligent approaches to
-              communication systems.
+              Research focused on 5G-enabled UAV networks for disaster
+              and rescue operations, using Reinforcement Learning for
+              intelligent network resource management.
             </p>
 
             <div className="project-tags">
+              <span>5G</span>
+              <span>UAV Networks</span>
+              <span>Reinforcement Learning</span>
               <span>Networking</span>
-              <span>Research</span>
-              <span>Python</span>
-              <span>Systems</span>
             </div>
 
-            <a href="/projects">
+            <a href="/research">
               View Project →
             </a>
           </article>

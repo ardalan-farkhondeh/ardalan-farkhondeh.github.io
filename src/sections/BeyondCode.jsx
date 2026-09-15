@@ -11,8 +11,8 @@ function BeyondCode() {
           </h2>
 
           <p>
-            Outside technology, I enjoy music, guitar, photography, and
-            exploring new places and ideas.
+            Outside technology, I enjoy music, cinema, art, and exploring
+            ideas that challenge the way I see the world.
           </p>
         </div>
 
@@ -24,32 +24,33 @@ function BeyondCode() {
             <h3>Music & Guitar</h3>
 
             <p>
-              I play guitar and enjoy exploring rock, blues, and metal.
-              Music is one of the ways I step away from technical work
-              and keep learning in a completely different way.
+              I play guitar and enjoy songwriting and exploring rock, blues,
+              and metal. Music is both a creative outlet and a different way
+              of thinking, learning, and expressing ideas.
             </p>
           </article>
 
           <article className="interest-card">
             <div className="interest-number">02</div>
 
-            <h3>Photography</h3>
+            <h3>Cinema & Art</h3>
 
             <p>
-              I enjoy photography and capturing places, people, and
-              everyday moments. It is another way I pay attention to
-              details outside the world of technology.
+              I enjoy cinema and visual art, especially works that have a
+              strong atmosphere, distinctive perspective, or something
+              meaningful to say.
             </p>
           </article>
 
           <article className="interest-card">
             <div className="interest-number">03</div>
 
-            <h3>Exploration</h3>
+            <h3>Philosophy & Ideas</h3>
 
             <p>
-              I enjoy discovering new places, learning about different
-              cultures, and experiencing things outside my usual routine.
+              I enjoy exploring philosophy and ideas about people, society,
+              and the way we understand the world. It keeps me curious and
+              encourages me to question assumptions.
             </p>
           </article>
 

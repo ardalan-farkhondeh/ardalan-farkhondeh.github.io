@@ -1,10 +1,8 @@
 function Contact() {
   return (
     <main className="contact-page">
-
       <section className="contact-hero">
         <div className="contact-hero-container">
-
           <p className="section-eyebrow">
             Contact
           </p>
@@ -14,47 +12,40 @@ function Contact() {
           </h1>
 
           <p>
-            I'm always interested in discussing software engineering,
-            artificial intelligence, research, and interesting technical
-            ideas.
+            I'm open to opportunities in software engineering,
+            artificial intelligence, and research.
           </p>
-
         </div>
       </section>
 
       <section className="contact-section">
         <div className="contact-container">
-
           <div className="contact-intro">
-
-            <p className="contact-label">
-              Get in touch
-            </p>
+           
 
             <h2>
-              Have a project, opportunity, or idea?
+              Get in touch.
             </h2>
 
             <p>
-              Whether you're interested in working together, discussing
-              a technical project, or simply connecting, feel free to
-              reach out.
+              Feel free to reach out if you'd like to discuss an opportunity,
+              technical project, research, or simply connect.
             </p>
-
           </div>
 
           <div className="contact-links">
-
             <a
-              href="mailto:your-email@example.com"
-              className="contact-link"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=ardalan.farkhonde@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="contact-link"
             >
               <span className="contact-link-label">
                 Email
               </span>
 
               <span className="contact-link-value">
-                your-email@example.com
+                ardalan.farkhonde@gmail.com
               </span>
 
               <span className="contact-link-arrow">
@@ -92,19 +83,16 @@ function Contact() {
               </span>
 
               <span className="contact-link-value">
-                LinkedIn Profile
+                linkedin.com/in/ardalan-farkhondeh
               </span>
 
               <span className="contact-link-arrow">
                 →
               </span>
             </a>
-
           </div>
-
         </div>
       </section>
-
     </main>
   )
 }

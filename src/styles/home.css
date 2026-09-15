@@ -15,7 +15,7 @@
   min-height: auto;
   display: flex;
   align-items: flex-start;
-  padding: 100px 24px 20px;
+  padding: 100px 24px 40px;
 }
 
 .hero-content {
@@ -164,7 +164,6 @@
     opacity: 0;
     transform: translateY(30px) scale(0.97);
   }
-
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
